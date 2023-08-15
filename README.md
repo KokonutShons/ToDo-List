@@ -14,10 +14,12 @@ Once having developed the files or to check how the application looks while work
 > Click "Go Live" on the bottom right corner of VSCode, then right click on `index.html` and click "Open with Live Server {CMD+L + CMD+O}"
 > Note: Opening with Live Server could be done without clicking "Go Live" button
 > Now the application will be displayed in your server through a connection through one of your device's port.
+
 Note that opening up a live server connection does not strictly have to be on the Live Server extension or in VSCode at all. 
 If starting a Live Server is something you do not want to or cannot do:
 > Navigate to the project directory on your device's file navigation system.
 > _Open_ or *Open With **_Browser_*** to view the application in your browser locally. 
+
 Chenge the RGB color values and other CSS componenets to customize the list to how you want it to look!
 
 ## Deliverables
