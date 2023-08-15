@@ -28,6 +28,12 @@ listContainer.addEventListener("click", function(e){
 }, false);
 
 // allow for items to be added by pressing enter key
+inputBox.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        addTask();
+    }
+});
 
 function saveData() {
     localStorage.setItem("data", listContainer.innerHTML); 
