@@ -43,6 +43,6 @@ Chenge the RGB color values and other CSS componenets to customize the list to h
 * index.html - HTML file containing components on webpage for user to interact with
 * README.md - File containing project description and build instructions
 * screenshots/ - Directory containing screenshots of the application
-  * preview.png - screenshot of what the application looks like
+  * preview.png - screenshot file image of what the completed application looks like
 * script.js - JavaScript file containing some frontend portions and backend portion of the project in user interation functionality
 * style.css - CSS file containing styling for user experience
