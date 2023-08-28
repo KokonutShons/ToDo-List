@@ -49,19 +49,12 @@ body.fade-cycle {
 
 @keyframes fade-cycle {
     0%, 100% {
-        background: linear-gradient(0deg, #FF6B6B, #556270);
+        opacity: 1;
+        background: #FF6B6B;
     }
-    20% {
-        background: linear-gradient(0deg, #FF6B6B, #556270);
-    }
-    40% {
-        background: linear-gradient(0deg, #FF6B6B, #556270);
-    }
-    60% {
-        background: linear-gradient(0deg, #556270, #FF6B6B);
-    }
-    80% {
-        background: linear-gradient(0deg, #556270, #FF6B6B);
+    50% {
+        opacity: 0.5;
+        background: #556270;
     }
 }
 
