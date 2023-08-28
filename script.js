@@ -1,5 +1,9 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
+const iconn = document.getElementById("moon");
+const body = document.body;    // set HTML element
+
+let fadeAnimationEnabled = false;
 
 // add a task
 function addTask(){
@@ -42,3 +46,14 @@ function showTask() {
     listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
+
+// when moon icon is clicked...
+iconn.addEventListener("click", () => {
+    fadeAnimationEnabled = !fadeAnimationEnabled;
+    if (fadeAnimationEnabled) {
+        body.classList.add("fade-cycle");
+    }
+    else {
+        body.classList.remove("fade-cycle");
+    }
+})
