@@ -4,6 +4,8 @@ Sean Fujiwara
 # ToDo-List
 The purpose for this project was to make a personal to-do list and notes application.
 
+![Screenshot](screenshots/preview.png)
+
 This project is a To-Do List application made using JavaScript, HTML, and CSS.
 
 ## Build
@@ -29,6 +31,7 @@ If starting a Live Server is something you do not want to or cannot do:
 
 > _Open_ or *Open With **_Browser_*** to view the application in your browser locally. 
 
+## Customization
 Chenge the RGB color values and other CSS componenets to customize the list to how you want it to look!
 
 ## Deliverables
@@ -39,5 +42,7 @@ Chenge the RGB color values and other CSS componenets to customize the list to h
   * unchecked.png - indication for not yet completed item
 * index.html - HTML file containing components on webpage for user to interact with
 * README.md - File containing project description and build instructions
+* screenshots/ - Directory containing screenshots of the application
+  * preview.png - screenshot of what the application looks like
 * script.js - JavaScript file containing some frontend portions and backend portion of the project in user interation functionality
 * style.css - CSS file containing styling for user experience
